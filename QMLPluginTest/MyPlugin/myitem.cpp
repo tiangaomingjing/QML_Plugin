@@ -1,4 +1,5 @@
-#include "myitem.h"
+﻿#include "myitem.h"
+#include <QDebug>
 
 MyItem::MyItem(QQuickItem *parent):
   QQuickItem(parent)
@@ -8,6 +9,7 @@ MyItem::MyItem(QQuickItem *parent):
   // following line and re-implement updatePaintNode()
 
   // setFlag(ItemHasContents, true);
+  qDebug()<<"hello c++ qml";
 }
 
 MyItem::~MyItem()
