@@ -1,4 +1,5 @@
 TEMPLATE = subdirs
 
 SUBDIRS += \
-    app-test
+    app-test \
+    MyPlugin/myplugin.pro
